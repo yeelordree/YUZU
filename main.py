@@ -1,3 +1,5 @@
+from qiskit import QuantumCircuit, QuantumRegister
+
 class yzu:
     def __init__(self, path: str):
         self.path = path
@@ -16,6 +18,13 @@ class yzu:
 
         print(len(result))
         return result
+
+    def get_instruction(self, instructionset: dict, label: str):
+        pass
+
+    def to_circuit(self, ):
+        qreg = QuantumRegister(self.num_qbits)
+
 
 
 main = yzu('h.yuzu')

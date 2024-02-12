@@ -1,4 +1,4 @@
-.qbits: 5
+qbits: 5
 
 .init:
   0 1
